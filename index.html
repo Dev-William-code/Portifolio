@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="William Armstrong">
+  <meta name="description" content="Portfólio do desenvolvedor front-end William Armstrong">
+  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+  <title>William Armstrong</title>
+  <link rel="icon" href="./icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav data-menu="suave">
+      <p><a href="#home">&lsaquo;WA/&rsaquo;</a></p>
+      <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+          <li>Experiência</li>
+        </a>
+        <a href="#projetos">
+          <li>Projetos</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="principal" id="home">
+      <div class="principal__left">
+        <h1>Olá, eu sou</h1>
+        <span class="principal__sentence"></span>
+        <span class="principal__input-cursor"></span>
+        <h1>Desenvolvedor Front-End</h1>
+        <div class="principal__botao">
+          <a href="https://www.linkedin.com/in/william-armstrong-gon%C3%A7alves-alves-firmino-de-lima-b703621ba/"
+            target="_blank">
+            <div class="principal__botao-linkedin">
+              <img src="./assets/linkedin.png" alt="" />
+              <p>LinkedIn</p>
+            </div>
+          </a>
+          <a href="https://github.com/Dev-William-code" target="_blank">
+            <div class="principal__botao-github">
+              <img src="./assets/github.png" alt="" />
+              <p>Github</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="principal__right">
+        <img src="./assets/boba-programming.png"
+          alt="Ilustração representando uma desenvolvedor sentado na cadeira mexendo no notebook com ambiente em volta."
+          data-tilt>
+      </div>
+
+      <div class="scroll" data-menu="suave"><a href="#sobre">
+          <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo">
+        </a></div>
+    </section>
+    <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+      <div class="sobre-mim__foto">
+        <img src="./assets/perfil.jpg" alt="Uma selfie de William Armstrong" />
+      </div>
+      <div class="sobre-mim__descricao">
+        <h1>Sobre mim</h1>
+        <h2>Manaus, Amazonas</h2>
+        <p>
+          Me reconheço como entusiasta em novas tecnologias do mercado, com aprendizado adquirido dia após dia. Atuei
+          com a instalação e manutenção e treinamento de programas de automação comercial
+          para bares, restaurantes e afins, tendo como principais atividades: planejamento de vendas, cotação de
+          produtos, desenvolvimento de processos operacionais, acompanhamento de projetos ,; distribuição
+          da área de atividade comercial; controle e inclusão de registros; gestão geral de Revendedores, incluindo
+          atendimento de dúvidas comerciais; acompanhamento de novos e antigos clientes,
+          (configuração do sistema e pagamentos diversos); padronização de processos internos; fabricação de manuais e
+          materiais para treinamento de funcionários é clientes. E responsável pela gestão é informação
+          da organização, criando e distribuindo em redes de computadores, além de tratar do processamento de dados,
+          SQL, hardware e software.
+          Possuo foco de aprendizado em desenvolvimento com Javascript, html, css, Reactjs, NodeJS, php dentre outras
+          tecnologias que uso para criar aplicações web.
+          Me considero ágil e consistente em aprender uma nova tecnologia e alta adaptabilidade às mudanças, pronto para
+          superar qualquer desafio!
+          Se eu pudesse me definir em 3 palavras, certamente seriam: otimista, perseverante e esforçado! :)
+        </p>
+        <div class="sobre-mim__descricao-buttons">
+          <a href="./assets/CV WilliamArmstrong Eu.pdf" download="">
+            <div class="sobre-mim__descricao-buttons-curriculo">
+              <img src="./assets/download-da-nuvem.png" alt="" />
+              <p>Currículo</p>
+            </div>
+          </a>
+          <a href="mailto: william.armstronng@gmail.com?subject=william, vim pelo seu portfólio! :)" target="_blank">
+            <div class="sobre-mim__descricao-buttons-email">
+              <img src="./assets/email.png" alt="" />
+              <p>E-mail</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <section class="experiencia" id="experiencia" data-anime="js-scroll">
+      <h1>Experiência</h1>
+      <div class="experiencia__wrapper">
+        <section class="experiencia__lugares">
+          <ul data-tab="menu">
+            <li>&#128064&#128064</li>
+            <li>CLG-NCR</li>
+          </ul>
+        </section>
+        <div class="experiencia__descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Em busca da minha primeira experiência "oficial" :)</h2>
+            <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+            <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail william.armsrtonng@gmail.com
+              &#10024</p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Tecnico de TI/ SISTEMAS</h2>
+            <span>fev 2016 - Jul 2019</span>
+            <p class="experiencia__descricao-local">NCR CORPORATION(CLG-Sistemas e Gestão)</p>
+            <p>
+              instalação e manutenção de programas automação comercial para bares, restaurantes e similares,
+              tendo como principais atividades: planejamento de vendas, cotação de produtos, desenvolvimento nos
+              processos operacionais, acompanhamento de projetos,; distribuição da área de atuação comercial;
+              controle e inclusão de cadastros; administração geral de Revendedores, incluindo atendimento
+              relacionado às dúvidas Comercial; monitoramento de novos e antigos clientes via internet
+              (configuração de Sistema e diversos pagamentos); padronização dos processos internos; elaboração
+              de manuais e material para treinamento de colaboradores e clientes. É o responsável por gerenciar
+              as informações da organização, criando e distribuindo-as em redes de computadores, além de lidar
+              com processamento de dados, SQL, hardwares e softwares.
+            </p>
+          </section>
+
+        </div>
+    </section>
+    </div>
+
+    <footer>
+      <p>Desenvolvido por</p><a
+        href="https://www.linkedin.com/in/william-armstrong-gon%C3%A7alves-alves-firmino-de-lima-b703621ba/"
+        target="_blank"><span> William Armstrong</span></a>
+    </footer>
+  </main>
+
+  <script src="./js/script.js" type="module"></script>
+  <script src="./js/modules/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
